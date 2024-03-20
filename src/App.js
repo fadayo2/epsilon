@@ -6,7 +6,6 @@ import Music from './component/Music';
 function App() {
   return (
     <div className="App">
-      {/* <Music/> */}
       <Intro/>
     </div>
   );

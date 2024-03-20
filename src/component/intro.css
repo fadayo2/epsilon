@@ -50,7 +50,7 @@ body {
 
 p {
     letter-spacing: 4px;
-    font-size: calc(6vw + 6vh);
+    font-size: calc(8vw + 8vh);
     font-weight: bolder;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.301);
     background: -webkit-linear-gradient(0deg, #db3ce9 0%, #de3b9b 10% , #f13b6f 20% , #ff963a 30% , #d0c43a 40% , #97e93a 50% , #b93a9f 60% , #4562da 70% , #4562da 80%, #a1faec 90%,  #48abe0 100%);
@@ -86,6 +86,46 @@ p {
     background: rgba(255, 255, 255, 0.11);
 }
 
+.hTxt {
+    text-align: center;
+    width: inherit;
+    margin-top: 0.7rem;
+    font-family: "Lilita One", sans-serif;
+    font-size: calc(2vw + 2vh);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.301);
+    background: -webkit-linear-gradient(0deg, #db3ce9 0%, #de3b9b 10% , #f13b6f 20% , #ff963a 30% , #d0c43a 40% , #97e93a 50% , #b93a9f 60% , #4562da 70% , #4562da 80%, #a1faec 90%,  #48abe0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input {
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(141, 141, 141, 0.6);
+    background: rgb(255, 255, 255);
+    font-family: "Kode Mono", monospace;
+    font-weight: bolder;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.301);
+    background: -webkit-linear-gradient(0deg, #db3ce9 0%, #de3b9b 10% , #f13b6f 20% , #ff963a 30% , #d0c43a 40% , #97e93a 50% , #b93a9f 60% , #4562da 70% , #4562da 80%, #a1faec 90%,  #48abe0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0px 9px 10px 0px rgba(0, 0, 0, 0.502);
+}
+
+::placeholder{
+    font-weight: bolder;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.301);
+    background: -webkit-linear-gradient(0deg, #db3ce9 0%, #de3b9b 10% , #f13b6f 20% , #ff963a 30% , #d0c43a 40% , #97e93a 50% , #b93a9f 60% , #4562da 70% , #4562da 80%, #a1faec 90%,  #48abe0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media (max-width:1024px) {
     .imgDiv {
         display: none;
@@ -93,5 +133,11 @@ p {
     .txtDiv {
         width: inherit;
         height: inherit;
+    }
+    .hTxt {
+
+    }
+    input {
+        width: 70vw;
     }
 }
