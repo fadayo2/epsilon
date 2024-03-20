@@ -126,6 +126,20 @@ input:focus {
     -webkit-text-fill-color: transparent;
 }
 
+.password {
+    position: absolute;
+    right: 2rem;
+    top: 1.2rem;
+    width: 25px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.inputPassword {
+    position: relative;
+}
+
 @media (max-width:1024px) {
     .imgDiv {
         display: none;
@@ -133,9 +147,6 @@ input:focus {
     .txtDiv {
         width: inherit;
         height: inherit;
-    }
-    .hTxt {
-
     }
     input {
         width: 70vw;

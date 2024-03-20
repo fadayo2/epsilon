@@ -9,6 +9,7 @@
 }
 
 .loginForm {
+    position: relative;
     width: 700px;
     height: 500px;
     border-radius: 30px;
